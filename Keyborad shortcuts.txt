@@ -1,0 +1,5 @@
+Alt + Shift + downarrow = replicates that line below in Vs code.
+Windows + E = opens file explorer.
+Windows + v =  opens all previously copied content.
+if you click holding Alt in multiple line then the cursor will be placed in multiple line and you can code at a time in 3 lines.
+lorem23 will give randowm 23 words in vscode. not only 23 any nymber u can use...

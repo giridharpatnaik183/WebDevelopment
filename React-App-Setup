@@ -1,0 +1,64 @@
+React App Set-up
+----------------
+Step 1: Set Up Your Development Environment
+
+# Check Node.js installation
+node -v
+
+# Check npm installation
+npm -v
+
+If not installed, you can download and install them from nodejs.org
+
+Step 2: Create a React App
+Open your terminal and run the following commands to create a new React app using Create React App:
+
+npx create-react-app weighing-bridge-app
+cd weighing-bridge-app
+
+Step 3: Project Structure
+Your project structure will look something like this:
+weighing-bridge-app/
+
+|-- src/
+|   |-- App.js
+|   |-- index.js
+|-- public/
+|-- node_modules/
+|-- package.json
+|-- ...
+
+Step 4: Replace Existing Code
+Replace the content of src/App.js with your HTML, CSS, and JavaScript code.
+
+Step 5: Install Axios for HTTP Requests
+Since you'll likely need to communicate with a backend, let's install Axios for making HTTP requests:
+
+npm install axios
+
+Step 6: Create a Backend
+For simplicity, you can use a tool like JSON Server as a fake REST API for testing. Install it globally:
+
+npm install -g json-server
+
+Create a file named db.json in the root of your project:
+
+{
+  "measurements": []
+}
+
+Run JSON Server:
+json-server --watch db.json --port 3001
+
+This will start a fake REST API at http://localhost:3001.
+
+Step 7: Update App.js to Fetch and Display Data
+Update src/App.js to use React Hooks and Axios to fetch data:
+
+Step 8: Start the React App
+Run your React app:
+
+npm start
+
+
+
